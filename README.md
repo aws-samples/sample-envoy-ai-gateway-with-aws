@@ -1,17 +1,17 @@
-## My Project
+# Envoy AI Gateway with Amazon Bedrock Integration
 
-TODO: Fill this README out!
+## Introduction
+This repository contains sample notebook to demonstrates the use of Envoy AI Gateway ([https://aigateway.envoyproxy.io/docs](https://aigateway.envoyproxy.io/docs)) along with various backend AI services including Amazon Bedrock and other 3P model providers. The Envoy AI Gateway facilitates the management of AI service traffic, enabling features like routing, authentication, and security policies for AI applications.
 
-Be sure to:
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Pre-requisites
+Ensure the following tools are installed before proceeding:
 
-## Security
+1.  **kubectl**: The Kubernetes command-line tool.
+2.  **helm**: The package manager for Kubernetes.
+3.  **curl**: For testing API endpoints (installed by default on most systems).
+4.  **AWS CLI**: AWS command line interface.
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+Note that we will leverage Amazon EKS service as the hosting platform for Envoy AI Gateway.
 
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
 

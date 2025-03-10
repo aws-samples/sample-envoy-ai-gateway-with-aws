@@ -12,6 +12,6 @@ Ensure the following tools are installed before proceeding:
 3.  **curl**: For testing API endpoints (installed by default on most systems).
 4.  **AWS CLI**: AWS command line interface.
 
-Note that we will leverage Amazon EKS service as the hosting platform for Envoy AI Gateway.
+Note that we will leverage Amazon EKS service as the hosting platform for Envoy AI Gateway. Follow along the step by step instruction in the notebook for setup details.
 
 

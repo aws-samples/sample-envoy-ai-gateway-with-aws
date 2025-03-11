@@ -59,9 +59,9 @@ def main():
     Main function to retrieve secrets and update the YAML file.
     """
     # AWS Configuration - Modify these as needed
-    region_name = "us-east-1"  # Replace with your AWS region
-    aws_secret_name = "AWS-Secret-Keys"  # Replace with your AWS secret name in Secrets Manager
-    openai_secret_name = "OPEN_API_KEY" # Replace with your OpenAI secret name
+    region_name = "<YOUR_AWS_REGION>"  # Replace with your AWS region
+    aws_secret_name = "<YOUR_AWS_SECRET_NAME>"  # Replace with your AWS secret name in Secrets Manager
+    openai_secret_name = "<YOUR_OPEN_AI_SECRET_NAME>" # Replace with your OpenAI secret name
     yaml_file = "./basic.yaml" # Replace with the name of your YAML file
 
     # Retrieve secrets from AWS Secrets Manager
